@@ -342,6 +342,30 @@ p {
         width: 108px;
     }
 
+    
+.contact-email {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    color: var(--gold, #c9a45c);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: color 0.25s ease;
+}
+
+.contact-email:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .contact-email {
+        font-size: 14px;
+    }
+}
+
+
 
     .header-phone {
         margin-left: auto;
